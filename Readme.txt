@@ -36,4 +36,7 @@ ans: if you want to move the whole file back to the untracked state,then we do g
 otherwise if we just want the change to be moved in working area or stagging area then 
 we do git restore.
 
+13. `git diff commit1 commit2` -> gives the difference of all file changes between two commits
 
+14. `git commit -m "<your commit msg>"` -> If we want to avoid opening text editor like vim/nano to
+add commit message we can use this following command
